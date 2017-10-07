@@ -1,0 +1,346 @@
+
+
+
+
+body{
+	font-family: 'Aleo Regular', arial;
+	width: 1440px;
+	margin: 20px 10px;
+  height: 2166px;
+  background-color: #ffffff;
+	display:inline-block;
+}
+
+
+header {
+	width: 100%;
+	height :640px; 
+	margin:0px;
+	padding: 0px;
+	background-color : #000000;
+	background-image : url(../pics/header.jpg);
+	background-repeat : no-repeat;
+	background-size : cover;
+}
+
+nav {
+	height: 60px;
+	padding-top: 21px;
+  background-color: #000000;
+	vertical-align : middle;
+}
+
+nav a.img-logo img{
+	text-align : center;
+	vertical-align : middle;
+}
+
+nav span {
+	position : relative:
+	font-family: Aleo;
+  font-size: 15px;
+	text-align: center;
+	margin-left: 40%;
+	top : 0px;
+	display: inline;
+}
+
+.connect-fb {
+	float : right; 
+	vertical-align : middle;
+}
+.connect-fb img {
+	vertical-align:middle;
+}
+
+.connect-fb-resp{display:none;}
+
+header div.main-title p{
+	position: relative;
+	z-index:10;
+	margin : 175px auto 0px auto;
+  font-family: 'Aleo Bold', 'Arial bold';
+  font-size: 60px;
+  color: #ffffff;
+  text-align:center;
+  z-index : 200; 
+}
+
+
+nav a, nav a:hover, nav a:visited{
+  color:#ffffff;
+	display:inline;
+	text-decoration:none;
+	white-space:nowrap;
+	margin : 0px 15px; 
+
+}
+
+nav a.connect-fb img{
+	vertical-align:middle;
+}
+
+nav a.connect-fb {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+nav a.connect-fb, nav a.connect-fb:hover, nav a.connect-fb:visited  {
+  background-color: #000000;
+  color:#ffffff;
+	text-decoration:none;f
+  text-align: left;
+}
+
+
+div.contents{
+	float : left;
+	display:block;
+	overflow: visible;
+}
+
+
+h1{
+	font-family: 'Aleo Bold', 'Arial bold';
+	font-size : 40px;
+	color:#333333;
+	width : 100%;
+	text-align : center;
+	margin-top:60px;
+}
+
+.art-content{
+	margin : 0px 15px 50px 15px; 
+	float : left;
+	width : 450px;
+	height : 580px;
+	overflow: visible;
+	
+}
+
+.art-pict img{
+	width : 450px;
+	height : 339px;
+}
+
+.art-text h2{
+	font-family: 'Aleo Bold', arial;
+	font-size : 30px;
+	text-align : left;
+	color:#000;
+}
+.art-text p{
+	font-family: 'Aleo Regular', arial;
+	font-size : 24px;
+	text-align : left;
+	color:#000;
+}
+
+.picture {
+  width: 450px;
+  height: 339px;
+  object-fit: contain;
+}
+
+.like img, .comments img {
+	font-family: Roboto;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.4);
+  width : 24px;
+	height : 24px;
+	vertical-align:middle;
+	display:inline;
+	color:#cccccc;
+}
+
+.like{
+	float:left;
+}
+.comments{
+	margin-left:30%;
+	float:left;
+}
+
+#btn-load-more {
+	width: 1410px;
+	float:left;
+	margin-top : 80px
+	position : relative;
+  height: 60px;
+  border: 1px solid #000000;
+	text-align:center;
+	vertical-align: middle;
+}
+
+
+#btn-load-more a {
+	text-decoration:none;
+	text-transform:uppercase;
+  font-family: 'Aleo bold', 'arial bold';
+  font-size: 20px;
+  letter-spacing: 2.4px;
+	line-height : 60px; 
+  color: #000000;
+}
+
+div#footer {
+  height: 40px;
+	border: 1px solid #00000:
+	position absolute;
+	float:left;
+	margin-top: 50px;
+}
+
+div#footer a{
+  font-size: 15px;
+  height: 18px;
+  font-family: 'Aleo Regular', arial;
+	text-decoration:none;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left : 15px;
+}
+
+
+/***************************************
+ * Smartphones
+ */
+
+@media screen and (max-width: 1000px){
+	body{
+		width: 480px;
+	}
+	header {
+		width: 480px;
+		height :210px;
+	}
+	nav {
+		height: 60px;
+		padding-top: 10px;
+	}
+	nav a.img-logo img{
+		position : absolute;
+		top : 25px;
+		left: 50px;
+		display:block;
+		vertical-align : middle;
+	}
+
+	nav span {
+		position : absolute;
+		margin-top: 60px;
+		margin-left: 0%;
+	  font-size: 13px;
+	}
+
+	nav a.connect-fb {
+		display:none;
+	}
+	.connect-fb-resp{display:inline;float:right;}
+
+
+	header div.main-title p{
+		margin : 20px auto 0px auto;
+	  font-family: 'Aleo Bold', 'Arial bold';
+	  font-size: 30px;
+	}
+	.art-content{
+		margin : 0px 5px 50px 5px; 
+	}
+	#btn-load-more {
+		width: 480px;
+	}
+	div#footer a{
+	  font-size: 14px;
+		width: 60px;
+	}
+}
+
+
+
+/***************************************
+ * Tablettes
+ */
+
+@media screen and (min-width: 1000px) and (max-width: 1380px){
+
+	body{
+		width: 1000px;
+	}
+	header {
+		width: 960px;
+		height :415px;
+	}
+
+	nav a.img-logo img{
+		vertical-align : middle;
+	}
+
+	nav span {
+		margin-left: 20%;
+	  font-size: 14px;
+	}
+
+	nav a.connect-fb {
+		font-size: 15px;
+	}
+	.connect-fb-resp{display:none;}
+
+	header div.main-title p{
+		margin : 100px auto 0px auto;
+	  font-family: 'Aleo Bold', 'Arial bold';
+	  font-size: 50px;
+	}
+
+	.art-content{
+		margin : 0px 10px 50px 10px; 
+	}
+	#btn-load-more {
+		width: 941px;
+	}
+	div#footer a{
+	  font-size: 15px;
+		width: 80px;
+	}
+}
+
+/***************************************
+ * Ecran PC
+ */
+
+@media screen and (min-width: 1380px){
+	body{
+		width: 1440px;
+	}
+
+	header {
+		width: 1440px;
+		height :637px;
+	}
+
+	nav a.img-logo img{
+		vertical-align : middle;
+	}
+
+	nav a.connect-fb {
+		font-size: 15px;
+	}
+	.connect-fb-resp{display:none;}
+
+	nav span {
+		margin-left: 40%;
+	  font-size: 15px;
+	}
+
+	.art-content{
+		margin : 0px 15px 50px 15px; 
+	}
+	
+	#btn-load-more {
+		width: 1410px;
+	}
+	div#footer a{
+	  font-size: 15px;
+		width: 80px;
+	}
+}
